@@ -1,34 +1,42 @@
+html {
+  background: #212529;
+}
 #Navbar {
-  background-color: whitesmoke;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
   z-index: 1;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
-#FirstContainer {
-  background-color: whitesmoke;
-  height: 750px;
+#Inicio {
+  background: transparent;
 }
-#Carousel{
-    position: relative;
-    z-index: 0;
-}
-#Icon{
+#Icon {
   position: relative;
   font-size: 50px;
   float: left;
 }
-#Info{
+#Info {
   position: relative;
 }
-#Caption{
-  bottom: 600px;
+#Nosotros {
+  background: #212529;
+  height: 710px;
+  color: white;
+  padding: 50px;
 }
-#SecondContainer{
-  background-color: whitesmoke;
-  padding: 100px;
-}
-#Card{
+#Card {
   margin-left: 10px;
+}
+#Carousel {
+  z-index: 0;
+}
+#Img {
+  border-radius: 20px;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: auto;
 }

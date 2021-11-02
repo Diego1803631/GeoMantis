@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Router>
-      <CompNavbar></CompNavbar>  
+      <CompNavbar /> 
       <Switch>
         <Route exact path='/' component={Index} />
       </Switch>
